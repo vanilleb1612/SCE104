@@ -1,0 +1,67 @@
+.container {
+    margin: auto;
+    width: 47%;
+}
+
+.header {
+    width: 40vw;
+    height: 5vh;
+    position: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: brown;
+    font-size: 175%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place {
+    position: center;
+    width: 50vw;
+    height: 30vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place img {
+    height: 100%;
+    width: 100%;
+}
+
+.description {
+    width: 50vw;
+    height: 30vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+   /* width: 100%;
+    height: 100%;/*
+    /*background-color: rgba(105, 105, 105, 0.7);
+    transition: width 1s;*/
+}
+
+.details {
+    position: relative;
+    color: black;
+}
+
+strong {
+    display: block;
+    font-size: 150%;
+    /*margin-bottom: 30px;*/
+}
+
+.place:hover .description {
+    left: 0px;
+    background-color: rgba(105, 105, 105, 0.7);
+}
+
+a{
+    background-image: url(cse104beangame.jpg);
+}

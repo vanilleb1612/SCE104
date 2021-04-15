@@ -1,0 +1,57 @@
+#everything{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 10px;
+    background:rgb(252, 232, 202);
+    margin:10px;
+    float:none;
+}
+
+#bottompart{
+    float: left;
+    display: flex;
+}
+button{
+    margin: 10px
+}
+#game{
+    display: flex;
+    flex-direction: column; 
+}
+#score{
+    display: inline-block;
+    position: relative;
+    left: 0%;
+}
+#teacherdiv{
+    text-align: left;
+    position: relative;
+    left: 0%;   
+}
+
+.invisible{
+    display: none;
+}
+.checkbox{
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+div{
+    margin:10px;
+}
+.disabled{        
+    background:rgba(235, 125, 119, 0.884);
+    opacity:1;
+}
+.enabled{
+    opacity: 0.5;
+    background: rgb(252, 232, 202);
+    transition: 0.3s; 
+}

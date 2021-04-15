@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="Snake-Canvas.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="snake.css">
+    <link rel='stylesheet' type'text/css' href='..\Global.css'>
+    <title>Snake</title>
+
+</head>
+<body>
+    <h1>Snake</h1>
+    <div id='footer'>
+        <a href="..\TicTacToe\TicTacToe.html" class='Link' id='footer-left'>
+                <div>
+                    Tic-Tac-Toe
+                </div>
+        </a>
+        <a href="..\Battleship\Battleship.html" class='Link' id='footer-right'>
+                <div>
+                        Battleship
+                </div>
+        </a>
+    </div>
+    <div id='everything'>
+        <div id='teacherdiv'>
+            <input type="checkbox" id="Teacher-Mode" class='checkbox'>
+            <label for="Teacher-Mode">Teacher mode</label>
+            <div id='options' class='invisible'>
+                <input type="checkbox" id="godmode" class='checkbox'>
+                <label for="godmode">God mode (Can change mid-game)</label>
+                <br>
+                <input type="range" min="0" max="100" value="60" id="speed">
+                <label for="Speed">Speed (Change before starting game)</label>
+            </div>
+        </div> 
+        <div id='game'>
+            <canvas id="myCanvas" width="500" height="500"></canvas>
+            <span id ='bottompart'>
+                <canvas id="score" width='200' height='100'></canvas>
+                <button type="button" id='start' class='enabled'>Start the Game</button>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

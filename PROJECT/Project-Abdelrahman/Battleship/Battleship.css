@@ -1,0 +1,55 @@
+.board{
+    width:350px;
+    height:350px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin:10px;
+    border-radius: 10px;    
+}
+#me{
+    float: left;
+}   
+.cell{
+    display:block;
+    flex-grow: 1;
+    border: 1px solid black;
+    background: whitesmoke;
+    background-position: left;
+}
+.row{
+    display:block;
+    flex-grow: 1;
+    display: flex;
+    flex-direction:row;
+}
+.disabled{        
+    background:rgba(235, 125, 119, 0.884);
+    opacity:1;
+}
+.enabled{
+    opacity: 0.5;
+    background: rgb(252, 232, 202);
+    transition: 0.3s; 
+}
+#everything{
+    display: flex;
+
+}
+button{
+    margin: 10px
+}
+#Instructions{
+    margin: 10px;
+    width:90%;
+}
+label{
+    font-size: 10px
+}
+input{
+    height: 10px;
+}
+span{
+    text-align: center;
+}

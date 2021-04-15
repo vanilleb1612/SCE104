@@ -1,0 +1,13 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+  
+.square {
+    background-color: yellow;
+}
+  
+.circle {
+    background-color: red;
+    border-radius: 50%;
+}

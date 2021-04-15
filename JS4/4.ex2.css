@@ -1,0 +1,27 @@
+div .im{
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    display: flex;
+    flex-direction: row;
+}
+img{
+    margin-left: 5px;
+    height:10vw
+}
+
+.button{  display: block;
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+    padding: 1em 2em;
+    border: 2px solid black;
+    width:10vw;
+}
+p:hover{
+    background-color: darkslategray;
+}
+
+span p{
+    display: inline;
+}

@@ -1,0 +1,34 @@
+
+
+#bloc2 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+
+    position: relative;
+    top: 5px;
+    left: -20px;
+    z-index: 0;
+}
+
+#bloc3 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    position: relative;
+    top: 0px;
+    left: -50px;
+    z-index: 1;
+}
+
+#bloc1 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position:relative;
+    z-index:2;
+}

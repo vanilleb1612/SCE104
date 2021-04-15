@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="Battleship.css">
+    <link rel='stylesheet' type'text/css' href='..\Global.css'>
+    <script src="Battleship.js" defer></script>
+    <title>Battleship</title>
+</head>
+<body>
+    <h1>Battleship</h1>
+    <h3>Rules: </h3>
+    <p id='Rules'>"Battleship is a war-themed board game for two players in which the opponents try to guess the location of the other's various ships." 
+        (<a href="https://www.thesprucecrafts.com/the-basic-rules-of-battleship-411069">Source</a>) 
+        Players take turns firing shots to attack enemy ships.
+        The first player to destroy all the enemy ships wins.
+        Yellow indicates an unharmed cell with a boat in it.
+        Orange indicates a cell that has been hit with a boat in it.
+        Red indicates a cell with a sunken boat in it.
+        Blue indicates a cell where a shot has been fired but there was no boat.
+
+    </p>
+    <div id='everything'>
+        <span id = 'me'><div id='myboard' class='board'></div> Your grid  </span>
+        <span id = 'opponent'><div id='opponentboard' class='board'></div>Opponent's grid</span>
+        <div id='right-side'>
+            <button id='start' class='enabled'>Start</button>
+            <br>
+            <button id='restart' class = 'disabled'>Restart</button>
+            <br>
+            <input type="checkbox" name="Show Enemy boats" id="show">
+            <label for="Show Enemy boats">Show enemy boats (Check before starting the game please)</label>
+            <br>
+            <h5>Instructions: </h5  >
+            <div id = 'Instructions'> Press start to begin </div>
+        </div>
+    </div>
+    <div id='footer'>
+            <a href="..\Snake\Snake-canvas.html" class='Link' id='footer-left'>
+                    <div>
+                        Snake
+                    </div>
+            </a>
+            <a href="..\TicTacToe\TicTacToe.html" class='Link' id='footer-right'>
+                    <div>
+                            Tic Tac Toe
+                    </div>
+            </a>
+    </div>
+</body>
+</html>

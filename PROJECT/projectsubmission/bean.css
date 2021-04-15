@@ -1,0 +1,145 @@
+body{
+    flex-direction: column;
+}
+#Game{
+    position:fixed;
+    top:10vh;
+    margin-left:20%;
+    margin-right:20%;
+    height: 75%;
+    width: 70%;
+    display: block;
+    position: center;
+}
+div{
+    margin-left: 40vw;
+    position: center;
+    display: flex;
+    margin: 20px
+}
+div:hover {
+    cursor:pointer;
+}
+
+#buttons{
+    flex-direction: row;
+}
+#button1{
+    border: 2px solid black;
+    width: 300px;
+    height: 160px;
+    margin-top: 20px;
+}
+.option2c{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+}
+.option2c:hover{
+    background-color: black;
+}
+#circle1{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+#circle1:hover{
+    background-color: black;
+}
+.circle {
+    border: 2px solid black;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.circle:hover {
+    background-color: lightsalmon;
+}
+.c {
+    border: 2px solid black;
+    background-color:red; 
+    width: 20px; 
+    height: 20px; 
+    position: relative; 
+    border-radius: 50%;
+}
+#button2{
+    border: 2px solid black;
+    width: 300px;
+    height: 160px;
+    margin-top: 20px;
+}
+.option2l{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+}
+.option2l:hover{
+    background-color: black;
+}
+#line1{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+#line1:hover{
+    background-color: black;
+}
+.line{
+    border: 2px solid black;
+    background-color:blue;
+    width: 35px;
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.line:hover{
+    background-color: lightblue;
+}
+.l{
+    border: 2px solid black;
+    background-color: blue;
+    width: 20px;
+    height: 15px;
+}
+.newgame {
+    position: center;
+    display: inline-block;
+    flex-direction: row;
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+.inactive {
+    color: gray;
+    border: 2px solid gray;
+    background-color: gray;   
+}
+.inactive:hover{
+    background-color: none;
+}
+.result {
+    position: center;
+    border: 2px solid black;
+    width: 650px;
+    height: 50px;
+    flex-direction: row;
+    margin: 40px;
+}
+#end{
+    position: relative;
+    flex-direction: row;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    border: 5px solid yellow;
+    width: 50%;        
+    height:8vh;
+    position: center;
+    display: inline-block;
+}

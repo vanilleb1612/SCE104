@@ -1,0 +1,20 @@
+
+a {
+	border: 2px solid blue;
+	background-color: lightblue;
+}
+
+em {
+	border: 2px solid green;
+	background-color: lightgreen;
+}
+
+strong {
+	border: 2px solid red;
+	background-color: pink;
+}
+
+p {
+	border: 1px dashed gray;
+	padding: 5px;
+}

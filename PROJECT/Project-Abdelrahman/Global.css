@@ -1,0 +1,61 @@
+body{
+    background:rgb(253, 242, 242)
+}
+button{
+    background: rgb(240, 198, 143);
+    float:none;
+    border-radius: 10px;
+    border: none;
+    height:50px;
+    width:150px; 
+    font-family: Impact, sans-serif;    
+    opacity: 0.5;
+    transition: 0.3s;
+}
+button:hover{
+    opacity: 1;
+}
+h1{
+    margin: 0;
+    color: rgb(12, 1, 73);
+    font-size: 50px;
+    font-family: sans-serif;  
+}
+#footer{
+    position: fixed;
+    margin: 0;  
+    width: 90%;
+    border: black;
+    bottom: 5%;
+    left: 5%;
+    height: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.Link{
+    background: rgb(247, 207, 148);
+    height: 100%;
+    width:20%;
+    font-size: 25px;
+    font-weight: bold;  
+    border-radius: 10px;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.4s
+}
+.Link:hover{
+    opacity:1;
+    text-decoration: underline; 
+}
+
+#footer a div{
+    color: black;
+    margin: auto;
+    margin-top:10%;
+}
+
+*{  
+    text-decoration: turquoise;
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
+}

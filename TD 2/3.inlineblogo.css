@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(240,240,240);
+}
+img {
+    background-color: cyan;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 20px;
+}

@@ -1,0 +1,62 @@
+.container {
+    margin: auto;
+    width: 47%;
+}
+
+.header {
+    width: 100%;
+    height: 1em;
+    position: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(215, 249, 250);
+    font-size: 175%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place {
+    position: relative;
+
+    width: 550px;
+    height: 275px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place img {
+    height: 100%;
+}
+
+.description {
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(105, 105, 105, 0.7);
+    
+}
+
+.details {
+    position: relative;
+    top: 100px;
+    left: 80px;
+    color: white;
+}
+
+strong {
+    display: block;
+    font-size: 150%;
+    margin-bottom: 30px;
+}
+
+.place:hover .description {
+    right: 0px;
+    
+    transition: width 1s;
+}

@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="snake.js" defer></script>
+    <style>
+        #snake{
+            height : 10px;
+            width : 10px;
+            border: solid;
+            position: absolute;
+        }
+        #playbox{
+            height : 90%;
+            width: 90%;
+            border : solid;
+            display: flex;
+            flex-direction: row;
+        }
+        #apple{
+            height: 20px;
+            width: 20px;
+            border: solid;
+            background: black;
+            position:absolute;
+        }
+        #linebox{
+            height: 100%;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div id ='playbox'><div id='snake'></div><div id='apple'></div> </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+a {
+	display: inline-block;
+	text-decoration: none;
+	background: rgba(150,220,250,0.8);
+	color: black;
+	padding: 0.5em;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+a:hover {
+	background-color: cyan;
+}
+
+
+.hamburger {
+	display: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: rgba(150,220,250,0.8);
+}
+
+.hamburger div {
+	background-color: black;
+	width: 25px;
+	height: 4px;
+	margin: 5px;
+}
+
+.hamburger:hover {
+	background-color:red;
+}
+
+@media (max-width: 350px) {
+	.hamburger {
+		display:inline-block;
+	}
+
+	a {
+		display:none;
+	}
+
+	.hamburger:hover + .links a, .links:hover a {
+		display:block;
+	}
+}

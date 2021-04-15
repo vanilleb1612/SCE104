@@ -1,0 +1,22 @@
+
+img {
+	display: block;
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+a {
+	display: block;
+	color: green;
+	margin: 20px;
+}
+
+h1 {
+	display: inline;
+	font-size: 150%;
+	color: red;
+}
+p {
+	display: inline;
+	font-style: italic;
+}

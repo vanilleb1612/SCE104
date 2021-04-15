@@ -1,0 +1,17 @@
+.container {
+    width: 75vw;
+    height: 75vh;
+    background: lightgray;
+}
+
+.A {
+    width: 75%;
+    height: 25%;
+    background-color: yellow;
+}
+
+.B {
+    width: 25%;
+    height: 50%;
+    background-color: salmon;
+}

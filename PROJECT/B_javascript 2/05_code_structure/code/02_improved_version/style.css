@@ -1,0 +1,29 @@
+
+div {
+  display: inline-block;
+  margin: 20px;
+}
+
+.box {
+  width: 150px;
+  height: 80px;
+  padding: 20px;
+  border: 2px solid black;
+  user-select: none;
+  text-align: center;
+}
+
+.left .box{
+  background-color: red;
+}
+
+.right .box{
+  background-color: yellow;
+}
+
+.box:active {
+  background-color: white;
+}
+.box:hover {
+  cursor: pointer;
+}

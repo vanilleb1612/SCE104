@@ -1,0 +1,36 @@
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+#buttongame{
+    position: fixed;
+    width: 60vw;
+    height: 15vh;
+    border: black;
+    opacity: 0.8;
+    display: flex;
+    text-align: center;
+    margin:0;
+}
+.Link{
+    background-color: red;
+    position:center;
+    height: 80%;
+    width:30%;
+    font-size: 15px;
+    font-weight: bold;  
+    border-radius: 10px;
+    text-decoration:none;
+    opacity: 0.6;
+    transition: 0.6s;
+
+}
+.Link:hover{
+    opacity:1;
+    text-decoration: underline; 
+}
+#buttongame a div{
+    color: black;
+    text-align: center;
+}

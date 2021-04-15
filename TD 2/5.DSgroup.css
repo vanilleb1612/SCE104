@@ -1,0 +1,17 @@
+.wrapper{
+    display: block;
+    margin: 20px;
+}
+
+
+.wrapper:hover{
+color: white;
+background-color: black;
+}
+
+div.wrapper{
+    margin-bottom:20px;
+}
+.wrapper div:hover{
+    color: yellow;
+}

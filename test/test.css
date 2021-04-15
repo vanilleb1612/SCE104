@@ -1,0 +1,133 @@
+body{
+    margin: 5vw;
+ 
+}
+
+.begin{
+    margin:5px;
+    width:90vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{ 
+    display: inline;
+    position: relative;
+    color: black;
+}
+
+.menu{
+    display: inline;
+}
+
+.begin .menu div{
+    position: relative;
+    display: inline;
+    color: grey;
+    margin: 5px;
+}
+
+.menu div:hover{
+    color:black
+}
+
+.place {
+    position: relative;
+
+    width: 90vw;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.place img{
+    position: relative;
+    height:100%;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.place .description{
+    color:grey;
+    font-style: italic;
+    width:100%;
+    position: relative;
+}
+
+.place2{
+    position: relative;
+
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.block{
+    width: 40%;
+    color: black;
+    margin:auto;
+}
+.extra{
+    position: relative;
+    width:100%;
+    margin-top: 15px;
+}
+.extra div:hover{
+    background-color: transparent;
+    transition: background-color 1s;
+}
+.block img{
+    position: left;
+    width:100%;
+    margin-top: 15px;
+}
+
+.extra div{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 105, 105, 0.7);
+    transition: background-color 1s;
+}
+
+.descriptionb{
+    color: black;
+}
+.boxe{
+    width: 50%;
+    position: center;
+    padding: 0.5em;
+    border: 2px solid black;
+    font-size: 175%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxe:hover{
+    background-color: black;
+    color:white
+}
+@media (max-width: 600px) {
+    .begin{
+        display: block;
+    }
+    
+    .part2{
+        display: block;
+    }
+    .place img{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .block{
+        display: block;
+    }
+}

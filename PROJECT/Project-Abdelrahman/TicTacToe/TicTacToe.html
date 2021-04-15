@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe</title>
+    <script src='TicTacToe.js' defer></script>
+    <link rel='stylesheet' type'text/css' href="TicTacToe.css">
+    <link rel='stylesheet' type'text/css' href='..\Global.css'>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id='container'>
+        <h2 id='result'>Result:  </h2>
+        <div id = 'options'>
+            <label class='checkmarkcontainer'>Two player mode
+            <input type="checkbox" id="2player" class='checkbox'>
+            <span class="checkmark"></span>
+            </label>
+            <form>
+                <label class='checkmarkradio'>Easy
+                <input type="radio" name="mode" value="Easy" id = 'Easy'>
+                <span class="radio"></span>
+                </label>
+                <label class='checkmarkradio'>Not so easy
+                <input type="radio" name="mode" value="Hard" id = 'Hard'checked>
+                <span class="radio"></span>
+                </label>
+            </form> 
+        </div>
+        <div id='board'>
+        <div id= 'top-left' class='box'></div>
+        <div id= 'top-middle' class='box'></div>
+        <div id= 'top-right' class='box'></div>
+        <div id= 'middle-left' class='box'></div>
+        <div id= 'middle-middle' class='box'></div>
+        <div id= 'middle-right' class='box'></div>
+        <div id= 'bottom-left' class='box'></div>
+        <div id= 'bottom-middle' class='box'></div>
+        <div id= 'bottom-right' class='box'></div>
+        </div>
+        <button id='reset'>Reset</button>
+    </div>
+    <div id='footer'>
+            <a href="..\Snake\Snake-canvas.html" class='Link' id='footer-left'>
+                    <div>
+                        Snake
+                    </div>
+            </a>
+            <a href="..\Battleship\Battleship.html" class='Link' id='footer-right'>
+                    <div>
+                            Battleship
+                    </div>
+            </a>
+    </div>
+</body>
+</html>

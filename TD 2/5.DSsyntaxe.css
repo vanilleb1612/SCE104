@@ -1,0 +1,25 @@
+.rightSide {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.highlight em {
+    color: red;
+}
+
+.group1 {
+    background-color: pink;
+    width: 50px;
+}
+.group2 {
+    background-color: lightgreen;
+    width: 100px;
+}

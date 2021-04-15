@@ -1,0 +1,30 @@
+section p {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: rgb(127, 194, 214);
+    border: 5px solid rgb(0, 60, 255);
+    padding: 10px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+section {
+    margin-left: 70px;
+}
+
+footer p{
+    display: inline-block;
+    font-weight: bold;
+    background-color: pink;
+    #border: 2px solid rgb(163, 26, 49);
+    padding: 1px;
+    margin: 20px;
+    width: 180px;
+    height: 15px;
+    text-align:center;
+    border-radius: 10px
+
+}

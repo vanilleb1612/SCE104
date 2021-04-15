@@ -1,0 +1,56 @@
+#menu{
+    position: center;
+    margin: auto;
+    margin-top: 5vh;
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    text-align: center
+}
+
+#title{
+    position: center;
+    text-align: center;
+    font-size: 3em;
+    padding:30px;
+}
+#M{
+    position: center;
+    padding: 2vw;
+    margin: auto;
+    margin-top: 5vh;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 30px;
+    background-color: red;
+    text-align: center;
+    font-size: 2em;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 30px;
+    transition:0.6s;
+    opacity: 0.5;
+    margin-top: 2em;
+    background: coral;
+}
+a:hover{
+    opacity:3;
+    background-color: lightpink;
+    transition:0.6s;
+}
+
+a p{
+    font-size: 30px;
+    color: black;
+    margin: auto;
+}
+

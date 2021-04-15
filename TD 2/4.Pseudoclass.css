@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-size: 200%;
+
+}
+a {
+    color: blue;
+    text-decoration: none; /* take away the default underline */
+}
+
+/* The mouse is over the element */
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* The mouse click on the element */
+a:active {
+    background-color: black;
+}

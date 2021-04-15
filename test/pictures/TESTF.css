@@ -1,0 +1,128 @@
+
+
+body{
+    background-color:grey;
+}
+#table{
+    background-color:white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 10px;
+    position: center;
+    border: 2px solid black;
+
+}
+
+
+#head{
+    margin:5px;
+    width:90vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{ 
+    display: inline;
+    position: relative;
+    color: black;
+    size:0.1em;
+}
+
+#menu{
+    display: inline;
+    
+}
+
+#head a{
+    position: relative;
+    display: inline;
+    color: grey;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+.pic .group{
+    position: relative;
+    
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;        
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+}
+img{
+
+        width: 40%;
+        color: black;
+        margin:auto;
+        border-radius: 5px;
+
+}
+
+.bottom{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.bottom .lefttext{
+    color: gray;
+    text-align: left;
+    display: inline;
+    margin-right: 10%;
+    
+}
+.bottom .righttext{
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-right: 10%;
+
+}
+.bottom a{
+   
+    text-align: right;
+    color: grey;
+    text-decoration: none;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+
+.bottom .righttext p{
+ 
+    text-align: right;
+    text-decoration: none;
+    color: grey;
+    font-style: italic;
+}
+
+.bottom a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .pic {
+        display: flex;
+        flex-direction: column;
+    }
+    .pic .group{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

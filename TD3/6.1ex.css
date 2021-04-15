@@ -1,0 +1,25 @@
+div{
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+
+.text{
+    display: inline-block;
+    padding: 10px;
+    border:solid 3px red;
+    border-radius: 10px;
+    text-align: left;
+    width: 300px;
+    height:80px;
+    background-color: lightblue;
+}
+
+img{
+    height: 100px;
+    margin: 10px;
+}
+
+div, img{
+    vertical-align:top;
+}

@@ -1,0 +1,14 @@
+body {
+    margin-left: 5%;
+}
+  
+ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+#boxe {
+    margin-left: 40px;
+    width: 50%;
+    height: 100px;
+    border: 2px solid black;
+}

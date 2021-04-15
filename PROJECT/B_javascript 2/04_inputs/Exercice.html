@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="Exercice.js" defer></script>
+    <style>
+        input[type=color] {
+            padding: 3px 5px;
+        }
+        #slider:hover {
+            opacity: 1; /* Fully shown on mouse-over */
+        }
+        #slider {
+            -webkit-appearance: none;
+            background: #d3d3d3;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            border-radius: 5px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Gradient</h1>
+    <div style="padding-left:20px">
+        <p>
+            Choose color 1:<input id="button1" type="color" value='white'>
+            <br>
+            <br>
+            Choose color 2:<input id="button2" type="color" value='white'> 
+            <br><br>
+            Length: <input type="range" id="slider" min='0' max='100' value='100'>
+        </p>
+        <div id='rectangle' style="border-style:solid; height:200px; background:black">
+            
+        </div>
+    </div>
+</body>
+</html>

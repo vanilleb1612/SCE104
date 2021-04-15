@@ -1,0 +1,43 @@
+
+.boxe{
+
+margin: 100px;
+padding: 100px;
+border: solid 5 px black;
+border-radius: 10px;
+text-align: center;
+background-color: yellow;
+width: 100px;
+height: 80px;
+width: 150px;
+}
+
+.boxe:hover .hboxe{
+    display: block;
+    
+}
+
+.hboxe{
+    display: none;
+    margin: 10px;
+    padding: 30px;
+    border:solid black 2px;
+    background-color: pink;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    height: 20px;
+    width: 70px;
+}
+
+
+
+body {
+    text-align: center;
+    margin: 2em;
+}
+
+
+
+

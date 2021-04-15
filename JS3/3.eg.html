@@ -1,0 +1,37 @@
+<h1>Click on me!</h1>
+
+<div class="square"></div>
+<div class="circle invisible"></div>
+<style>
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.square {
+  background-color: yellow;
+}
+
+.circle {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.invisible {
+  display: none;
+}
+</style>
+
+<script>
+const title = document.querySelector('h1');
+title.addEventListener('click',actionClicked);
+
+function actionClicked(event) {
+  const circle    = document.querySelector('.circle');
+  const square = document.querySelector('.square');
+
+  square.classList.add("invisible");
+  circle.classList.remove("invisible");
+}
+</script>

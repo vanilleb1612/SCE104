@@ -1,0 +1,110 @@
+body{
+    margin:5px
+    }
+    
+h1{
+    display: inline;
+    font-size: bold;
+    margin-right:5vw; 
+    
+}
+    
+#Menu{
+        display: inline;
+        color: grey;
+}
+.Menu a{
+        display: inline-block;
+        text-decoration: none;
+}
+.Menu a:hover{
+        color: black;
+}
+    
+#home{
+        display: block;
+        position: relative;
+        margin: 10vw;
+}
+    
+#home img{
+        width: 100%;
+        display: block;
+        height: 80%;
+        border-radius: 10px;
+}
+    
+#home p{
+        display: block;
+        color: grey;
+        font-style:italic;
+        font-size: 150%;
+        text-align: center;
+}
+   
+.home2{
+        position: relative;
+        display:inline;
+        margin-left: auto;
+        margin-right: auto;
+    
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+}
+    
+.block{
+        width: 40%;
+        color: black;
+        margin:auto;
+}
+    
+.block img{
+      height:100%;
+      z-index: auto;
+      
+}
+.around{
+    background-color: grey;
+    width:100%;
+    margin-top: 15px;
+    border-radius: 20px;
+    z-index: 2;
+    position: absolute;
+}
+
+p{
+        color: black;
+}
+.button{
+        width: 50%;
+        position: center;
+        padding: 0.5em;
+        border: 2px solid black;
+        font-size: 175%;
+        font-weight: bold;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+    .button:hover{
+        background-color: black;
+        color:white
+    }
+    
+  
+    
+    @media (max-width: 600px) {
+        h1{
+            display: block;
+        }
+        .Menu{
+            display: block;
+        }
+        .block{
+            display: block;
+        }
+    
+    }
